@@ -5,13 +5,140 @@
         "worldScrollX": 0,
         "worldScrollY": 0,
         "zoom": 100,
+        "customColorsWhite": "E8F8E0",
+        "customColorsLight": "B0F088",
+        "customColorsDark": "509878",
+        "customColorsBlack": "202850",
         "startX": 9,
         "startY": 9,
         "startDirection": "down",
-        "startSceneId": "",
+        "startSceneId": "49428930-0b25-4fd6-b9d7-ae1ff090e646",
         "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
     },
-    "scenes": [],
+    "scenes": [
+        {
+            "name": "Intro",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "id": "49428930-0b25-4fd6-b9d7-ae1ff090e646",
+            "x": 248,
+            "y": 121,
+            "actors": [],
+            "triggers": []
+        },
+        {
+            "name": "Chapter 3 Title Card",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "id": "293e188f-82c4-4239-b2aa-8146c817a0a1",
+            "x": 895,
+            "y": 122,
+            "actors": [],
+            "triggers": []
+        },
+        {
+            "name": "Chapter 2 Title Card",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "id": "c6f3fcfb-72d1-43a6-838a-5415c37f5695",
+            "x": 677,
+            "y": 121,
+            "actors": [],
+            "triggers": [],
+            "__type": "scene"
+        },
+        {
+            "name": "Chapter 1 Title Card",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "id": "aa1e2266-1e8e-49c1-b500-a8c2d5ae9292",
+            "x": 473,
+            "y": 121,
+            "actors": [],
+            "triggers": [],
+            "__type": "scene"
+        },
+        {
+            "name": "Game Over",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "id": "3f473bbd-d092-4851-9e99-a955947c0ea2",
+            "x": 616,
+            "y": 467,
+            "actors": [],
+            "triggers": [],
+            "__type": "scene"
+        },
+        {
+            "name": "Game Win",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "id": "bcbb7d24-f420-44db-a0b3-82239fe563ee",
+            "x": 1133,
+            "y": 124,
+            "actors": [],
+            "triggers": [],
+            "__type": "scene"
+        }
+    ],
     "_version": "1.2.0",
     "author": "t-dubs",
     "name": "RePear",
@@ -25,7 +152,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "_v": 1561399228204
+            "_v": 1580531347214
         }
     ],
     "spriteSheets": [
@@ -35,7 +162,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "_v": 1561399228204
+            "_v": 1580531347215
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -43,7 +170,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "_v": 1561399228204
+            "_v": 1580531347214
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -51,7 +178,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "_v": 1561399228204
+            "_v": 1580531347215
         }
     ],
     "music": [
@@ -59,7 +186,8 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1561399228201
+            "_v": 1580531347204
         }
-    ]
+    ],
+    "customEvents": []
 }
