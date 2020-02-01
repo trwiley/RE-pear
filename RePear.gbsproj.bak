@@ -2,8 +2,8 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1230,
-        "worldScrollY": 1,
+        "worldScrollX": 1370,
+        "worldScrollY": 0,
         "zoom": 200,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
@@ -657,7 +657,7 @@
                                                 "sceneId": "aa1e2266-1e8e-49c1-b500-a8c2d5ae9292",
                                                 "x": 9,
                                                 "y": 9,
-                                                "direction": "down",
+                                                "direction": "left",
                                                 "fadeSpeed": "4"
                                             }
                                         },
@@ -808,7 +808,7 @@
                                 "sceneId": "c6f3fcfb-72d1-43a6-838a-5415c37f5695",
                                 "x": 9,
                                 "y": 9,
-                                "direction": "down",
+                                "direction": "",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -896,7 +896,7 @@
                                 "sceneId": "293e188f-82c4-4239-b2aa-8146c817a0a1",
                                 "x": 9,
                                 "y": 9,
-                                "direction": "down",
+                                "direction": "",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -986,7 +986,7 @@
                                 "sceneId": "bcbb7d24-f420-44db-a0b3-82239fe563ee",
                                 "x": 9,
                                 "y": 9,
-                                "direction": "down",
+                                "direction": "",
                                 "fadeSpeed": "2"
                             }
                         },
