@@ -2,8 +2,8 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 5,
-        "worldScrollY": 873,
+        "worldScrollX": 0,
+        "worldScrollY": 880,
         "zoom": 100,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
@@ -1147,6 +1147,20 @@
                             "children": {
                                 "script": [
                                     {
+                                        "id": "7586e7fe-54b9-4651-ba1a-d31b8da8cfed",
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "8",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "0",
+                                            "value": "1",
+                                            "minValue": 1,
+                                            "maxValue": 6,
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
                                         "id": "2d83d650-e2f4-4f9e-be77-775162eebce7",
                                         "command": "EVENT_SWITCH",
                                         "args": {
@@ -1272,6 +1286,21 @@
                                             ],
                                             "true4": [
                                                 {
+                                                    "id": "8b213484-5c96-4867-a492-31dd78be5b62",
+                                                    "command": "EVENT_VARIABLE_MATH",
+                                                    "args": {
+                                                        "vectorX": "9",
+                                                        "operation": "set",
+                                                        "other": "var",
+                                                        "vectorY": "5",
+                                                        "value": "1",
+                                                        "minValue": "0",
+                                                        "maxValue": "255",
+                                                        "__collapse": false
+                                                    },
+                                                    "__type": "event"
+                                                },
+                                                {
                                                     "id": "e45e7b74-4ac4-4e9d-b27d-26ef37caec1d",
                                                     "command": "EVENT_VARIABLE_MATH",
                                                     "args": {
@@ -1292,21 +1321,6 @@
                                                 }
                                             ],
                                             "true5": [
-                                                {
-                                                    "id": "8b213484-5c96-4867-a492-31dd78be5b62",
-                                                    "command": "EVENT_VARIABLE_MATH",
-                                                    "args": {
-                                                        "vectorX": "9",
-                                                        "operation": "set",
-                                                        "other": "var",
-                                                        "vectorY": "5",
-                                                        "value": "1",
-                                                        "minValue": "0",
-                                                        "maxValue": "255",
-                                                        "__collapse": false
-                                                    },
-                                                    "__type": "event"
-                                                },
                                                 {
                                                     "id": "02e1361d-d3a2-4ebc-a90e-18542c6a633c",
                                                     "command": "EVENT_END"
@@ -1437,7 +1451,7 @@
                             "id": "4da59ff5-21f0-4339-a32c-28297725343b",
                             "command": "EVENT_SET_VALUE",
                             "args": {
-                                "variable": "22",
+                                "variable": "21",
                                 "value": 3
                             }
                         },
@@ -1663,7 +1677,7 @@
                             "id": "b3ea2ffd-45ff-421c-bed4-1a22a9db5e01",
                             "command": "EVENT_SET_VALUE",
                             "args": {
-                                "variable": "22",
+                                "variable": "21",
                                 "value": 3
                             }
                         },
@@ -1856,6 +1870,14 @@
             ],
             "script": [
                 {
+                    "id": "fa9dec8d-eba6-4a23-a8eb-8f8a018a01bc",
+                    "command": "EVENT_COMMENT",
+                    "args": {
+                        "text": "This scene Inits the six (currently) possible Encounter Set variables (which all areas that have unique enemy sets should do this). //\n\nIn the scene is an example of how the random encounters can be enabled/disabled via triggers (requires 2 triggers per threshold). //\n\nEM_Encounter_InitTest demonstates how this same process can be done on Scene Init so that the entire walking area is potenially usable for encounters. //\n\nFinally, EM_Encounter_AutoDisabledTest demonstrates that the timer event is automatically disabled when transitioning to a new room (no random encounters can happen). //\n\nEvery room with random encounters will also need an EncounterManager Actor who can choose from the random encounter sets from 1-6.",
+                        "__collapse": false
+                    }
+                },
+                {
                     "id": "ddd95958-48f1-418e-9574-7aa01fea5d97",
                     "command": "EVENT_SET_VALUE",
                     "args": {
@@ -2032,6 +2054,20 @@
                             "children": {
                                 "script": [
                                     {
+                                        "id": "7586e7fe-54b9-4651-ba1a-d31b8da8cfed",
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "8",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "0",
+                                            "value": "1",
+                                            "minValue": 1,
+                                            "maxValue": 6,
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
                                         "id": "2d83d650-e2f4-4f9e-be77-775162eebce7",
                                         "command": "EVENT_SWITCH",
                                         "args": {
@@ -2157,6 +2193,21 @@
                                             ],
                                             "true4": [
                                                 {
+                                                    "id": "8b213484-5c96-4867-a492-31dd78be5b62",
+                                                    "command": "EVENT_VARIABLE_MATH",
+                                                    "args": {
+                                                        "vectorX": "9",
+                                                        "operation": "set",
+                                                        "other": "var",
+                                                        "vectorY": "5",
+                                                        "value": "1",
+                                                        "minValue": "0",
+                                                        "maxValue": "255",
+                                                        "__collapse": false
+                                                    },
+                                                    "__type": "event"
+                                                },
+                                                {
                                                     "id": "e45e7b74-4ac4-4e9d-b27d-26ef37caec1d",
                                                     "command": "EVENT_VARIABLE_MATH",
                                                     "args": {
@@ -2177,21 +2228,6 @@
                                                 }
                                             ],
                                             "true5": [
-                                                {
-                                                    "id": "8b213484-5c96-4867-a492-31dd78be5b62",
-                                                    "command": "EVENT_VARIABLE_MATH",
-                                                    "args": {
-                                                        "vectorX": "9",
-                                                        "operation": "set",
-                                                        "other": "var",
-                                                        "vectorY": "5",
-                                                        "value": "1",
-                                                        "minValue": "0",
-                                                        "maxValue": "255",
-                                                        "__collapse": false
-                                                    },
-                                                    "__type": "event"
-                                                },
                                                 {
                                                     "id": "02e1361d-d3a2-4ebc-a90e-18542c6a633c",
                                                     "command": "EVENT_END"
@@ -2645,6 +2681,20 @@
                             "children": {
                                 "script": [
                                     {
+                                        "id": "7586e7fe-54b9-4651-ba1a-d31b8da8cfed",
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "8",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "0",
+                                            "value": "1",
+                                            "minValue": 1,
+                                            "maxValue": 6,
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
                                         "id": "2d83d650-e2f4-4f9e-be77-775162eebce7",
                                         "command": "EVENT_SWITCH",
                                         "args": {
@@ -2770,6 +2820,21 @@
                                             ],
                                             "true4": [
                                                 {
+                                                    "id": "8b213484-5c96-4867-a492-31dd78be5b62",
+                                                    "command": "EVENT_VARIABLE_MATH",
+                                                    "args": {
+                                                        "vectorX": "9",
+                                                        "operation": "set",
+                                                        "other": "var",
+                                                        "vectorY": "5",
+                                                        "value": "1",
+                                                        "minValue": "0",
+                                                        "maxValue": "255",
+                                                        "__collapse": false
+                                                    },
+                                                    "__type": "event"
+                                                },
+                                                {
                                                     "id": "e45e7b74-4ac4-4e9d-b27d-26ef37caec1d",
                                                     "command": "EVENT_VARIABLE_MATH",
                                                     "args": {
@@ -2790,21 +2855,6 @@
                                                 }
                                             ],
                                             "true5": [
-                                                {
-                                                    "id": "8b213484-5c96-4867-a492-31dd78be5b62",
-                                                    "command": "EVENT_VARIABLE_MATH",
-                                                    "args": {
-                                                        "vectorX": "9",
-                                                        "operation": "set",
-                                                        "other": "var",
-                                                        "vectorY": "5",
-                                                        "value": "1",
-                                                        "minValue": "0",
-                                                        "maxValue": "255",
-                                                        "__collapse": false
-                                                    },
-                                                    "__type": "event"
-                                                },
                                                 {
                                                     "id": "02e1361d-d3a2-4ebc-a90e-18542c6a633c",
                                                     "command": "EVENT_END"
@@ -3443,7 +3493,7 @@
                 }
             },
             "name": "EnableEncounters",
-            "description": "On Trigger (or on Scene Init), call this function to enable random encounters. Must pass in Steps (probably reset to zero) and EncounterRate for current area (1-20, with 1 being lowest possible chance and 0 being disabled).\n\nFunction also requires a null variable to work with.\n\nTo disable random encounters, on Trigger, simply call Disable Timer Script. It will be automatically disabled when moving to new scene.",
+            "description": "On Trigger (or on Scene Init), call this function to enable random encounters. Must pass in Steps (probably reset to zero) and EncounterRate for current area (1-20, with 1 being lowest possible chance and 0 being disabled).\n\nFunction also requires a null variable to work with.\n\nTo disable random encounters, on Trigger, simply call Disable Timer Script. It will be automatically disabled when moving to new scene.\n\nNeed to pass an EncounterManager that calls InstantiateEncounterWithSet in it's On Interact script.",
             "script": [
                 {
                     "id": "d45db1fe-816a-4016-bb8e-a033598e313a",
@@ -3650,6 +3700,20 @@
             "name": "InstantiateEncounterWithSet",
             "script": [
                 {
+                    "id": "7586e7fe-54b9-4651-ba1a-d31b8da8cfed",
+                    "command": "EVENT_VARIABLE_MATH",
+                    "args": {
+                        "vectorX": "8",
+                        "operation": "set",
+                        "other": "rnd",
+                        "vectorY": "0",
+                        "value": "1",
+                        "minValue": 1,
+                        "maxValue": 6,
+                        "__collapse": false
+                    }
+                },
+                {
                     "id": "2d83d650-e2f4-4f9e-be77-775162eebce7",
                     "command": "EVENT_SWITCH",
                     "args": {
@@ -3775,6 +3839,21 @@
                         ],
                         "true4": [
                             {
+                                "id": "8b213484-5c96-4867-a492-31dd78be5b62",
+                                "command": "EVENT_VARIABLE_MATH",
+                                "args": {
+                                    "vectorX": "9",
+                                    "operation": "set",
+                                    "other": "var",
+                                    "vectorY": "5",
+                                    "value": "1",
+                                    "minValue": "0",
+                                    "maxValue": "255",
+                                    "__collapse": false
+                                },
+                                "__type": "event"
+                            },
+                            {
                                 "id": "e45e7b74-4ac4-4e9d-b27d-26ef37caec1d",
                                 "command": "EVENT_VARIABLE_MATH",
                                 "args": {
@@ -3795,21 +3874,6 @@
                             }
                         ],
                         "true5": [
-                            {
-                                "id": "8b213484-5c96-4867-a492-31dd78be5b62",
-                                "command": "EVENT_VARIABLE_MATH",
-                                "args": {
-                                    "vectorX": "9",
-                                    "operation": "set",
-                                    "other": "var",
-                                    "vectorY": "5",
-                                    "value": "1",
-                                    "minValue": "0",
-                                    "maxValue": "255",
-                                    "__collapse": false
-                                },
-                                "__type": "event"
-                            },
                             {
                                 "id": "02e1361d-d3a2-4ebc-a90e-18542c6a633c",
                                 "command": "EVENT_END"
@@ -3898,7 +3962,7 @@
                     "command": "EVENT_END"
                 }
             ],
-            "description": "Will instance encounter scene with a predefined \"set\" of enemies. We can have between 1-255 (variable limit) sets, and currently up to 6 sets per map (held in EncounterSet_1 thru EncounterSet_6). Set the current sets on Scene Init and then pass them on an EncounterManager with this function.\n\nAlso needs two null variables passed."
+            "description": "Will instance encounter scene with a predefined \"set\" of enemies. We can have between 1-255 (variable limit) sets, and currently up to 6 sets per map (held in EncounterSet_1 thru EncounterSet_6). Set the current sets on Scene Init and then pass them on an EncounterManager with this function.\n\nAlso needs two null variables passed.\n\nTODO: Right now this function just displays a text box showing the value in the randomly chosen variable, but eventually it will need to do a Switch check for all enemy sets in the game and instantiate the Encounter Battle Scene."
         }
     ]
 }

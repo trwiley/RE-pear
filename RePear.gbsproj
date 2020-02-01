@@ -10,9 +10,9 @@
         "customColorsDark": "509878",
         "customColorsBlack": "202850",
         "startX": 0,
-        "startY": 8,
+        "startY": 0,
         "startDirection": "down",
-        "startSceneId": "987e90dd-d244-4186-a493-71f474e74ec9",
+        "startSceneId": "49428930-0b25-4fd6-b9d7-ae1ff090e646",
         "playerSpriteSheetId": "21a5d4c2-6a12-4985-8124-c223a429dff2",
         "customColorsEnabled": false
     },
@@ -1873,7 +1873,7 @@
                     "id": "fa9dec8d-eba6-4a23-a8eb-8f8a018a01bc",
                     "command": "EVENT_COMMENT",
                     "args": {
-                        "text": "This scene Inits the six (currently) possible Encounter Set variables (which all areas that have unique enemy sets should do this). //\n\nIn the scene is an example of how the random encounters can be enabled/disabled via triggers (requires 2 triggers per threshold). //\n\nEM_Encounter_InitTest demonstates how this same process can be done on Scene Init so that the entire walking area is potenially usable for encounters. //\n\nFinally, EM_Encounter_AutoDisabledTest demonstrates that the timer event is automatically disabled when transitioning to a new room (no random encounters can happen). //\n\nEvery room with random encounters will also need an EncounterManager Actor who can choose from the random encounter sets from 1-6.",
+                        "text": "This scene Inits the six (currently) possible Encounter Set variables (which all areas that have unique enemy sets should do this). //\n\nIn the scene is an example of how the random encounters can be enabled/disabled via triggers (requires 2 triggers per threshold). //\n\nEM_Encounter_InitTest demonstates how this same process can be done on Scene Init so that the entire walking area is potenially usable for encounters. //\n\nFinally, EM_Encounter_AutoDisabledTest demonstrates that the timer event is automatically disabled when transitioning to a new room (no random encounters can happen). //\n\nEvery room with random encounters will also need an EncounterManager Actor who can choose from the random encounter sets from 1-6. //\n\nNOTE: To playtest this scene, move the starting scene here.",
                         "__collapse": false
                     }
                 },
@@ -3094,7 +3094,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cave.png",
-            "_v": 1580574437249
+            "_v": 1580586244988
         },
         {
             "id": "f88f0087-8c00-4604-a97a-1fb07e24e9e2",
@@ -3104,7 +3104,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "house.png",
-            "_v": 1580574437249
+            "_v": 1580586244988
         },
         {
             "id": "e97d6c2f-b3b3-4363-ab5c-0c32c312b0f3",
@@ -3114,7 +3114,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1580574437249
+            "_v": 1580586244988
         },
         {
             "id": "28f9f5dd-061a-4ccc-8af2-93aceeef95bd",
@@ -3124,7 +3124,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "menu.png",
-            "_v": 1580574437249
+            "_v": 1580586244988
         },
         {
             "id": "8d4c0d0b-8ff2-4052-9a05-6c7507e37b41",
@@ -3134,7 +3134,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "outside.png",
-            "_v": 1580574437250
+            "_v": 1580586244988
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -3144,7 +3144,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "_v": 1580574437250
+            "_v": 1580586244988
         },
         {
             "id": "0fc3b580-3987-44ca-a71a-3362709d7cf5",
@@ -3154,7 +3154,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "small stars.png",
-            "_v": 1580574437250
+            "_v": 1580586244988
         },
         {
             "id": "590775c1-0f2f-4182-844f-87e4f9fbb832",
@@ -3164,7 +3164,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars.png",
-            "_v": 1580574437250
+            "_v": 1580586244988
         },
         {
             "id": "32634ded-73f4-4a75-b0fb-d5b993d4eae6",
@@ -3174,7 +3174,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "_v": 1580574437250
+            "_v": 1580586244988
         },
         {
             "id": "3e774bb2-1079-4088-b73a-e5711d3db868",
@@ -3184,7 +3184,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "underground.png",
-            "_v": 1580574437250
+            "_v": 1580586244989
         }
     ],
     "spriteSheets": [
@@ -3194,7 +3194,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "_v": 1580574437250
+            "_v": 1580586244989
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -3202,7 +3202,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "_v": 1580574437250
+            "_v": 1580586244989
         },
         {
             "id": "8dfaf5db-7d3a-4ff9-9dfe-fc2ca91d71c3",
@@ -3210,7 +3210,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "cat.png",
-            "_v": 1580574437250
+            "_v": 1580586244989
         },
         {
             "id": "fbc6423a-3c2a-4cd9-b364-ef076b8c85ac",
@@ -3218,7 +3218,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "checkbox.png",
-            "_v": 1580574437251
+            "_v": 1580586244989
         },
         {
             "id": "7cff5e81-2b2e-4886-a1ce-85626f567a16",
@@ -3226,7 +3226,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "dog.png",
-            "_v": 1580574437255
+            "_v": 1580586244990
         },
         {
             "id": "04b30bea-2e0c-4218-95f8-f4bf5353419c",
@@ -3234,7 +3234,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "duck.png",
-            "_v": 1580574437251
+            "_v": 1580586244989
         },
         {
             "id": "cc119f82-8cc2-4774-9f34-9d1d3fbd1096",
@@ -3242,7 +3242,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "fire.png",
-            "_v": 1580574437250
+            "_v": 1580586244989
         },
         {
             "id": "02d601f3-1a5d-4a3d-a1f2-820e8fc8f0a2",
@@ -3250,7 +3250,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "flower1.png",
-            "_v": 1580574437251
+            "_v": 1580586244989
         },
         {
             "id": "e2920985-d0da-4bd4-88ff-2297c8a6236e",
@@ -3258,7 +3258,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "full.png",
-            "_v": 1580574437252
+            "_v": 1580586244990
         },
         {
             "id": "9324619e-586a-4640-a28a-1dec5c3c0713",
@@ -3266,7 +3266,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Gnome.png",
-            "_v": 1580574437252
+            "_v": 1580586244990
         },
         {
             "id": "e7fa744f-da2a-4753-a012-8b355b7221f5",
@@ -3274,7 +3274,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "half.png",
-            "_v": 1580574437252
+            "_v": 1580586244990
         },
         {
             "id": "0b450cef-274c-458c-a81c-87b6304a8132",
@@ -3282,7 +3282,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Heart.png",
-            "_v": 1580574437252
+            "_v": 1580586244990
         },
         {
             "id": "fbac35ef-ef29-472f-bcc1-e3025c524c49",
@@ -3290,7 +3290,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "hurt.png",
-            "_v": 1580574437252
+            "_v": 1580586244990
         },
         {
             "id": "0f82e0c9-537c-4783-b14b-fcf9cc69b1b5",
@@ -3298,7 +3298,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "ice.png",
-            "_v": 1580574437252
+            "_v": 1580586244990
         },
         {
             "id": "595a6126-fb9f-4259-92ea-dc483c80605f",
@@ -3306,7 +3306,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "Items.png",
-            "_v": 1580574437252
+            "_v": 1580586244990
         },
         {
             "id": "6c8edede-376e-4d62-8ecf-c5d47dd519d8",
@@ -3314,7 +3314,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc001.png",
-            "_v": 1580574437252
+            "_v": 1580586244990
         },
         {
             "id": "81213f9c-28d2-466d-885b-ae05dea45507",
@@ -3322,7 +3322,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc002.png",
-            "_v": 1580574437252
+            "_v": 1580586244991
         },
         {
             "id": "a312ae87-06df-4b88-b8e4-f22610dba175",
@@ -3330,7 +3330,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc003.png",
-            "_v": 1580574437252
+            "_v": 1580586244991
         },
         {
             "id": "93a3e9cd-e451-4b44-8fe8-64d622baee61",
@@ -3338,7 +3338,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player.png",
-            "_v": 1580574437253
+            "_v": 1580586244991
         },
         {
             "id": "21a5d4c2-6a12-4985-8124-c223a429dff2",
@@ -3346,7 +3346,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player (2).png",
-            "_v": 1580574437253
+            "_v": 1580586244991
         },
         {
             "id": "ce355b7b-94a5-42e2-a083-c620f37269a8",
@@ -3354,7 +3354,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player (3).png",
-            "_v": 1580574437253
+            "_v": 1580586244991
         },
         {
             "id": "494f14d7-f7d8-496d-8f59-344a235d1241",
@@ -3362,7 +3362,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "radio.png",
-            "_v": 1580574437253
+            "_v": 1580586244991
         },
         {
             "id": "53468b54-edde-4ff2-8824-f6270374513e",
@@ -3370,7 +3370,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "rock.png",
-            "_v": 1580574437253
+            "_v": 1580586244991
         },
         {
             "id": "8b8efb37-5102-4fd9-926c-97f32f8305c4",
@@ -3378,7 +3378,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "sage.png",
-            "_v": 1580574437253
+            "_v": 1580586244992
         },
         {
             "id": "45f2ee1a-613d-47ca-ab1b-4b842023b293",
@@ -3386,7 +3386,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "savepoint.png",
-            "_v": 1580574437253
+            "_v": 1580586244992
         },
         {
             "id": "8eb3b822-76cc-4a56-80e0-14f84cefe911",
@@ -3394,7 +3394,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "seed.png",
-            "_v": 1580574437253
+            "_v": 1580586244992
         },
         {
             "id": "8dff45ed-3151-48ca-bbc9-65e142e92c98",
@@ -3402,7 +3402,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost.png",
-            "_v": 1580574437253
+            "_v": 1580586244992
         },
         {
             "id": "4c219a63-3de7-4d7a-8e61-92071ff6b185",
@@ -3410,7 +3410,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost (2).png",
-            "_v": 1580574437253
+            "_v": 1580586244992
         },
         {
             "id": "4336e345-0912-46d8-b548-91edfe646584",
@@ -3418,7 +3418,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "Squirrel.png",
-            "_v": 1580574437253
+            "_v": 1580586244992
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -3426,7 +3426,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "_v": 1580574437253
+            "_v": 1580586244992
         },
         {
             "id": "eb347eec-e92f-4272-9c26-fa230079d7ed",
@@ -3434,7 +3434,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static (2).png",
-            "_v": 1580574437254
+            "_v": 1580586244992
         },
         {
             "id": "3fbea6e2-cd4c-46f6-9d4f-d98a7ec4d360",
@@ -3442,7 +3442,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "sword.png",
-            "_v": 1580574437254
+            "_v": 1580586244993
         },
         {
             "id": "9a4acc1b-3bf6-4ed4-b5ce-23851ec0cca2",
@@ -3450,7 +3450,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "sword (2).png",
-            "_v": 1580574437254
+            "_v": 1580586244993
         },
         {
             "id": "098df389-24b9-4742-a5b7-1a6f5e8f4fc2",
@@ -3458,7 +3458,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "torch.png",
-            "_v": 1580574437254
+            "_v": 1580586244993
         }
     ],
     "music": [
@@ -3466,7 +3466,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1580574437228
+            "_v": 1580586244974
         }
     ],
     "customEvents": [
