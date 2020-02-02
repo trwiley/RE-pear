@@ -2,17 +2,17 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1640,
-        "worldScrollY": 13,
-        "zoom": 200,
+        "worldScrollX": 93,
+        "worldScrollY": 1,
+        "zoom": 100,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
         "customColorsDark": "509878",
         "customColorsBlack": "202850",
-        "startX": 9,
-        "startY": 3,
+        "startX": 0,
+        "startY": 1,
         "startDirection": "down",
-        "startSceneId": "95b894eb-d20d-4a5b-86c3-cff4a19d706b",
+        "startSceneId": "49428930-0b25-4fd6-b9d7-ae1ff090e646",
         "playerSpriteSheetId": "21a5d4c2-6a12-4985-8124-c223a429dff2",
         "customColorsEnabled": false
     },
@@ -187,7 +187,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "RE:seel"
+                            "CHAPTER 3\nRE:seel"
                         ],
                         "avatarId": ""
                     }
@@ -291,7 +291,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "RE:peel"
+                            "CHAPTER 2\nRE:peel"
                         ],
                         "avatarId": ""
                     }
@@ -396,7 +396,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "RE:veel"
+                            "CHAPTER 1\nRE:veel"
                         ],
                         "avatarId": ""
                     }
@@ -1065,8 +1065,8 @@
             "height": 18,
             "collisions": [],
             "id": "b9c3e913-0e1d-4915-8d11-78dfe74e4aad",
-            "x": 342.2,
-            "y": 840.4999999999955,
+            "x": 359.20000000000005,
+            "y": 832.4999999999955,
             "actors": [
                 {
                     "spriteSheetId": "9324619e-586a-4640-a28a-1dec5c3c0713",
@@ -5684,7 +5684,7 @@
             "y": 121,
             "actors": [
                 {
-                    "spriteSheetId": "9324619e-586a-4640-a28a-1dec5c3c0713",
+                    "spriteSheetId": "e0ae318d-63a8-43d2-8bc2-3808c0e5d04b",
                     "movementType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -6373,7 +6373,7 @@
                     ]
                 },
                 {
-                    "spriteSheetId": "4336e345-0912-46d8-b548-91edfe646584",
+                    "spriteSheetId": "0bb7cb35-d83e-4249-8e68-0afe0fa1a6ff",
                     "movementType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -7067,7 +7067,7 @@
                     ]
                 },
                 {
-                    "spriteSheetId": "6c8edede-376e-4d62-8ecf-c5d47dd519d8",
+                    "spriteSheetId": "9c482e61-89b1-41d8-b705-564cc1c52bbc",
                     "movementType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -10051,6 +10051,15 @@
                                 "children": {
                                     "true": [
                                         {
+                                            "id": "2f81d8f1-6fa2-49d0-ae82-cca89aee5c6b",
+                                            "command": "EVENT_MUSIC_PLAY",
+                                            "args": {
+                                                "musicId": "5d33996b-0e98-4015-93bc-d2ded1d99f04",
+                                                "loop": true,
+                                                "__collapse": true
+                                            }
+                                        },
+                                        {
                                             "id": "0afde3a5-c306-42a4-94cb-175f09db02c0",
                                             "command": "EVENT_ACTOR_MOVE_RELATIVE",
                                             "args": {
@@ -10127,6 +10136,11 @@
                     "args": {
                         "fadeSpeed": "2"
                     }
+                },
+                {
+                    "id": "e01743d9-6873-4ed4-8fa6-6a669cb6327f",
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {}
                 },
                 {
                     "id": "469e6bc2-19da-4fcd-a905-5daa07284177",
